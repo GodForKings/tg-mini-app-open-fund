@@ -16,7 +16,7 @@ export const BuyPoints: FC = () => {
 	const [purchaseAmount, setPurchaseAmount] = useState<number>(0)
 
 	const launchData = useLaunchParams()
-	const userId = 345678901 || launchData.tgWebAppData?.user?.id
+	const userId = 345678901 // launchData.tgWebAppData?.user?.id
 
 	const {
 		data: userData,
